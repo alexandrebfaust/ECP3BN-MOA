@@ -87,17 +87,32 @@ public class cinema{
 						System.out.print("\nSelecione uma letra: ");
 						letra = entrada.next().charAt(0);
 						switch(letra){
+							case 'a':
+								nletra=1;
+								break;
 							case 'A':
 								nletra=1;
+								break;
+							case 'b':
+								nletra=2;
 								break;
 							case 'B':
 								nletra=2;
 								break;
+							case 'c':
+								nletra=3;
+								break;
 							case 'C':
 								nletra=3;
 								break;
+							case 'd':
+								nletra=4;
+								break;
 							case 'D':
 								nletra=4;
+								break;
+							case 'e':
+								nletra=5;
 								break;
 							case 'E':
 								nletra=5;
